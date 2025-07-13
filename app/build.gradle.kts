@@ -45,7 +45,7 @@ dependencies {
 
     // Supabase
     implementation(libs.supabase.postgrest)
-    implementation(libs.supabase.gotrue)
+    implementation(libs.supabase.auth)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
