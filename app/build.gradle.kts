@@ -44,8 +44,7 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
 
     // Supabase
-    val supabaseBom = platform(libs.supabase.bom)
-    implementation(supabaseBom)
+    implementation(platform(libs.supabase.bom))
     implementation(libs.supabase.postgrest)
     implementation(libs.supabase.gotrue)
 
