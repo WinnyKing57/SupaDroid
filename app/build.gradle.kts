@@ -44,7 +44,6 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
 
     // Supabase
-    implementation(platform(libs.supabase.bom))
     implementation(libs.supabase.postgrest)
     implementation(libs.supabase.gotrue)
 
